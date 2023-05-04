@@ -1,0 +1,67 @@
+
+
+/* PARA TODO EL CUERPO */
+* {
+    font-family:verdana;
+    cursor: url(../imagenes/flecha.png), auto;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+a{
+    cursor: url(../imagenes/garra.png), auto;
+}
+body{
+    min-height: 100vh;
+}
+@font-face  {
+    font-family: "verdana";
+   src: url("../fuentes/fuente4.TTF");
+}
+
+/* encabezado y menu*/
+
+header{ 
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(rgb(255, 153, 0), gold);
+    position:fixed;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    cursor: url(../imagenes/garra.png), auto;
+    width: 150px;
+    background-color: gold;
+    border-radius: 30px;
+    font-size: 23px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.menu:hover{
+    background-image: linear-gradient(rgb(233, 216, 201), gold);
+    transform: scale(1.3);
+
+}
+
+/* AUDIO */
+audio {
+    position: fixed;
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+/* FOOTER o pie de pagina*/
+footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    border-radius: 20px 20px 0px 0px;
+    background-color: gold;
+}
+footer p{
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ENLACE FOOTER */
